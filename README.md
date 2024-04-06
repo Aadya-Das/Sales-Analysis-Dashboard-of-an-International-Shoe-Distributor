@@ -4,6 +4,9 @@ This data analysis project involved creating a comprehensive dashboard using Pow
 ### Dashboard Link: 
 [Sales Dashboard for a Leading International Shoe Distributor](https://app.powerbi.com/view?r=eyJrIjoiZjNlMmZiZjQtYzY1Ni00YzNmLThiYzItOTk2N2U1YjRmOWVkIiwidCI6Ijg5OWM1ZDljLTVmMjUtNDFmZS05YWVjLTdjYWI1MGY4YTQ4ZiJ9)
 
+
+<img width="937" alt="Screenshot 2024-04-06 at 10 24 33 PM" src="https://github.com/mridul-bhalla/Sales-Analysis-Dashboard-of-an-International-Shoe-Distributor/assets/158173545/6b1964ea-e30c-42e5-9f65-15788e7c35d4">
+
 ## Table of Contents:
 - [Problem Statement](#problem-statement)
 - [Data Source](#data-source)
