@@ -32,8 +32,7 @@ Sales Data: The primary dataset used for this analysis is the "Sales Dataset.xls
 3. Complaints and returns data reflect customer satisfaction and product quality issues.
 4. The company's primary objective is to maximize profit while maintaining customer satisfaction.
 5. The assumption is made that the "Sales Channel" and "Channel Type" sheets follow a hierarchical structure, where "Channel Type" represents broader categories and "Sales Channel" represents specific subcategories under each type.
-6. Products Returned column has continous values !!!
-7. RETURNING AND NEW CUSTOMER !!!
+6. Since the Products Returned column has continous values, so we have considered it as the average number of products returned in that entire month.
 
 ## Steps Followed
 
@@ -46,7 +45,9 @@ Sales Data: The primary dataset used for this analysis is the "Sales Dataset.xls
 - It was because the common column for connection was the date column, but the two files (sales target and complaints and returns) only contained month-end dates, resulting in incomplete connections.
 - To address this issue, a date master sheet was created containing all the dates and was connected to the fact table.
 - Sales target and complaints and returns were then connected to the date master sheet, establishing a snowflake schema to ensure comprehensive data integration.
-- [IMAGE OF DATA MODEL]
+  
+  ![image](https://github.com/mridul-bhalla/Sales-Analysis-Dashboard-of-an-International-Shoe-Distributor/assets/158173545/eadf6a0d-40ed-4aa8-90b4-18a0363ca1ca)
+
 
 #### Step 3: Identification and calculation of meaningful Business Metrics using DAX 
 
@@ -115,12 +116,14 @@ Sales Data: The primary dataset used for this analysis is the "Sales Dataset.xls
   - Customer satisfaction score
 - Visualisation such as Map, KPI visual, stacked bar charts, bubble plot, line chart have been used to depict the data perfectly.
 - Also, Rose Chart has been used from the added visual called "Aster Plot 1.4.0) to depict top 5 selling products.
+  
   <img width="280" alt="Screenshot 2024-04-06 at 7 17 24 PM" src="https://github.com/mridul-bhalla/Sales-Dashboard/assets/158173545/bd3fdbcb-d90d-4669-89db-cbc399cd07a2">
 
 
 #### Step 5: Dashboard Navigation
 - The dashboard contains three buttons to allow toggling between the three pages (Overview, Product Centric, and Customer Centric).
 - This navigation feature enhances user experience and facilitates seamless exploration of different aspects of the data analysis.
+  
   <img width="554" alt="toggle" src="https://github.com/mridul-bhalla/Sales-Dashboard/assets/158173545/ccead8e5-ff08-4813-b2b8-4a2d245319cf">
 
 
